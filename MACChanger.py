@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#mushrafmustafa@gmail.com
 
 import subprocess
 import optparse
@@ -17,7 +18,7 @@ def get_arguments():
 def mac_change(interface, new_mac):
 	print("[+] Changing MAC Address for " + interface +" to "+new_mac)
 	subprocess.call("ifconfig "+ interface+ " down", shell=True)
-	subprocess.call("ifconfig "+ interface+ " hw ether 00:11:22:33:44:66", shell=True)
+	subprocess.call("ifconfig "+ interface+ " hw ether "+new_mac, shell=True)
 	subprocess.call("ifconfig "+ interface+ " up", shell=True)
  
 options= get_arguments()
