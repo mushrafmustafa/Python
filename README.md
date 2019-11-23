@@ -1,5 +1,4 @@
-# Python MacChanger
-Changes Mac Address 
-Used in many Cases
-use --help for more info.
+# Python Snippets
+* Changes Mac Address 
+* Dubizzle Ads/Price Scrapper\n
 ./MushrafMustafa
